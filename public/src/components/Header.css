@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+.mainheaderdiv{
+    margin: 35px;
+}
+.mainheaderdiv ul {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    /* background-color: rgb(124, 63, 63); */
+    justify-content: space-evenly;
+}
+.mainheaderdiv ul li{
+    list-style: none;
+  
+}
+.links{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.links:hover{
+    opacity: 50%;
+}
